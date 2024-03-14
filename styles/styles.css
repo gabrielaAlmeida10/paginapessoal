@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 1rem;
+  background-color: rgba(89, 183, 226, 0.836);
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#dadosPessoais {
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+#dadosPessoais li{
+    list-style-type: none;
+}
+
+#dadosPessoais img {
+  width: 20%;
+  border-radius: 10px;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+h2 {
+  margin-top: 10px;
+  text-align: center;
+}
+li {
+  margin: 10px;
+  margin-right: 15px;
+}
+
+#ativLazer li {
+  float: left;
+  margin: 10px;
+}
+
+.footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img{
+    width: 50px;
+}
+
+.disciplinas{
+  border-collapse:collapse;
+  width: 100%;
+}
+
+.disciplinas td, th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.disciplinas tr{
+  background-color: #f2f2f2;
+}
+
+.disciplinas tr:hover{
+  background-color: #ddd;
+}
+
+.disciplinas th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0468aa;
+  color: white;
+}
+
+.contato{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
